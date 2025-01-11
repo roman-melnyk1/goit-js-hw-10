@@ -33,6 +33,7 @@ function handleFormSubmit(event) {
 }
 
 function createPromise(delay, state) {
+  
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (state === "fulfilled") {
